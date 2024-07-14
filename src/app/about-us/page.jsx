@@ -3,7 +3,7 @@ import burgerImage from './burgerDancing.png';
 
 const About = () => {
   return (
-    <section className="bg-[#4169E1] h-dvh">
+    <section className="bg-[#4169E1] h-full lg:h-[120vh] lg:pt-10">
   <div className="lg:mx-24 mx-4">
     <div className="">
       <div>

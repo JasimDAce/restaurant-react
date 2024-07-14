@@ -5,7 +5,7 @@ import burgerImage2 from './burger2.png';
 
 const Menu = () => {
   return (
-    <section className="bg-[#4169E1] h-screen">
+    <section className="bg-[#4169E1] h-full lg:h-[120vh] lg:pt-10">
   <div className="lg:mx-24 mx-4">
     <div className="">
       <div>

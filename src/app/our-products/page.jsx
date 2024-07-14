@@ -5,7 +5,7 @@ import burgerImage3 from './burger4.png';
 
 const Products = () => {
   return (
-    <section className="bg-[#4169E1] h-full">
+    <section className="bg-[#4169E1] h-full lg:h-[125vh] lg:pt-12">
   <div className="lg:mx-24 mx-4">
     <div className="">
       <div>
@@ -21,7 +21,7 @@ const Products = () => {
       </div>
     </div>
     <div className="grid grid-cols-12 mt-5 gap-4">
-      <div className="bg-white text-black rounded-3xl col-span-12 md:col-span-6 xl:col-span-4 flex flex-col justify-center items-start px-5 hover:translate-y-[-12px] hover:shadow-xl hover:shadow-black">
+      <div className="bg-white text-black rounded-3xl col-span-12 md:col-span-6 xl:col-span-4 flex flex-col justify-center items-start px-5 hover:translate-y-[-12px] hover:shadow-xl hover:shadow-black mb-10">
         <div className="pt-5 pl-2 flex items-start text-start h-full flex-col gap-2">
           <span className="text-sm text-left pl-2">Mini Burger</span>
           <h1 className="lg:text-5xl text-3xl font-bold">Bacon Burger</h1>
@@ -41,7 +41,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white text-black rounded-3xl col-span-12 md:col-span-6 xl:col-span-4 flex flex-col justify-center items-start px-5 hover:translate-y-[-12px] hover:shadow-xl hover:shadow-black ">
+      <div className="bg-white text-black rounded-3xl col-span-12 md:col-span-6 xl:col-span-4 flex flex-col justify-center items-start px-5 hover:translate-y-[-12px] hover:shadow-xl hover:shadow-black mb-10">
         <div className="pt-5 pl-2 flex items-start text-start h-full flex-col gap-2">
           <span className="text-sm text-left pl-2">Cheese Burger</span>
           <h1 className="lg:text-5xl text-3xl font-bold">Cheese Burger</h1>
@@ -61,7 +61,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white text-black rounded-3xl col-span-12 md:col-span-6 xl:col-span-4 flex flex-col justify-center items-start px-5 hover:translate-y-[-12px] hover:shadow-xl hover:shadow-black">
+      <div className="bg-white text-black rounded-3xl col-span-12 md:col-span-6 xl:col-span-4 flex flex-col justify-center items-start px-5 hover:translate-y-[-12px] hover:shadow-xl hover:shadow-black mb-10">
         <div className="pt-5 pl-2">
           <span className="text-sm text-left">Double Burger</span>
         </div>

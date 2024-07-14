@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import customerImage from './lady.png';
+import customerImage2 from './serena.png';
+import customerImage3 from './willams.png';
 
 const Review = () => {
   return (
-    <section className="bg-[#4169E1] h-full">
+    <section className="bg-[#4169E1] h-full lg:pt-12 lg:h-[115vh]">
   <div className="lg:mx-24 mx-4">
     <div className="">
       <div>
@@ -32,7 +35,7 @@ const Review = () => {
           Temporibus Ratione Quas Placeat Possimus!
         </p>
         <div>
-          <img className="h-[10vh] w-[10vh] mt-8" src="lady.png" alt="" />
+          <img className="h-[10vh] w-[10vh] mt-8" src={customerImage.src} alt="" />
         </div>
         <div className="text-sm font-bold">Patrick Hellinger</div>
         <div className="text-[#FFD700]">
@@ -57,7 +60,7 @@ const Review = () => {
           Temporibus Ratione Quas Placeat Possimus!
         </p>
         <div>
-          <img className="h-[10vh] w-[10vh] mt-8" src="serena.png" alt="" />
+          <img className="h-[10vh] w-[10vh] mt-8" src={customerImage2.src} alt="" />
         </div>
         <div className="text-sm font-bold">Helen Marksen</div>
         <div className="text-[#FFD700]">
@@ -82,7 +85,7 @@ const Review = () => {
           Temporibus Ratione Quas Placeat Possimus!
         </p>
         <div>
-          <img className="h-[10vh] w-[10vh] mt-8" src="willams.png" alt="" />
+          <img className="h-[10vh] w-[10vh] mt-8" src={customerImage3.src} alt="" />
         </div>
         <div className="text-sm font-bold">Serena Williams</div>
         <div className="text-[#FFD700]">
